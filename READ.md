@@ -1,0 +1,1 @@
+# "This project is a practice web development repository utilizing HTML, CSS,Tailwind frameworks, JavaScript, React, Next.js ,mongoDB,Express js , next js to build and improve my skills in creating dynamic and responsive web applications."
