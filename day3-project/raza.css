@@ -1,0 +1,40 @@
+div{
+    background-color: rgb(155, 155, 247);
+    
+     width: 100%; 
+    display:grid;
+    border: 2px solid #000000;
+    grid-template-columns: 100px 1fr 1fr ;
+    grid-template-rows: 50px  200px  50px;
+    gap:1.5px
+   
+}
+
+.con{background-color: blanchedalmond;
+   
+
+}
+.con1 , .con3{
+    grid-column-start: 1;
+    grid-column-end: 4;
+   
+   
+ }  
+
+ .con2{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+ }
+ .con4{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 5;
+ }
+
+
+   
+   
