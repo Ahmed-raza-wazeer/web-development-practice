@@ -116,7 +116,7 @@ font-size: 15px;
     position: absolute;
     user-select: none;
     font-size: 5rem;
-    color: rgb(177, 184, 190);
+    color: rgb(178, 185, 191);
    bottom: -13.5%;
    left: 9%;
    font-weight: bold;
@@ -313,8 +313,8 @@ font-size: 15px;
                 }
 
                 .project-section{
-                    background-color: rgb(197, 202, 207);
-                    margin:4rem;
+                    background-color:  rgb(178, 185, 191);
+                    /* margin:4rem; */
                 }
 
                 .page-header{
@@ -388,7 +388,7 @@ font-size: 15px;
                     background-image:linear-gradient(to right ,#686d8a9a , #293264be ,#4754947c);
                     transform:scaleX(0);
                     transform-origin: left;
-                    transition: all 0.3s;
+                    transition: all 1.8s;
                 }
 
                 .project-card:hover::before{
@@ -498,3 +498,102 @@ font-size: 15px;
                 .project-card:hover .project-content  {
                     transform:scale(1.1);
                 }
+
+
+                .skills-container{
+                    position:relative;
+                    display:flex;
+                    padding:5rem;
+                    margin:10rem auto;
+                }
+                .skill-container-left{
+                    width:50%;
+                    display:flex;
+                    flex-direction: column;
+                    position: relative;
+
+                }
+
+                .skill-container-right{
+                    display:flex;
+                    flex-wrap:wrap;
+                    width:50%;
+                    position:relative;
+                transition: all 1.8s;
+            left:70px;
+            row-gap: 5px;
+            column-gap: 4px;
+        }
+
+                    .skill-fade-text{
+                        position: absolute;
+                        font-size: 15rem;
+                        font-style: bold;
+                        color:rgb(197, 202, 207);
+                        bottom:-34.5%;
+                        right:-25%;
+                        user-select:none;
+                        overflow-y: hidden;
+
+                    }
+
+                    .blob-style{
+                        position:absolute;
+                        right:1%;
+                        top:4%;
+                        z-index: -5;
+                        animation: circle 8s linear infinite;
+                        
+                        
+                       
+
+
+
+                    }
+
+                    @keyframes circle{
+                      
+                       
+                       
+                        50%{
+                            top:6%;
+                            right:5%;
+                        }
+
+                        100%{
+                            top:4%;
+                            right:1%;
+                        }
+                    }
+
+                    .skills-logo{
+                        width:100px;
+                        transition:all 0.5;
+                        
+                       
+                        
+                    }
+                    .skills-logo:hover{
+                        transform:scale(1.2);
+                    }
+
+
+                    .skill-heading{
+                        font-size:50px;
+                        font-style:bold;
+                        color:orangered;
+                        line-height: 50px;
+                    }
+                    .cap{
+                        font-size:90px;
+                    }
+
+                    .skill-subHeading{
+                        margin-top:1rem;
+                        width:85%;
+                        text-align:justify;
+                    }
+
+                    .skill-subHeading p{
+                        
+                    }
