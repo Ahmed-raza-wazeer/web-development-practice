@@ -1,11 +1,11 @@
-@import url('https://fonts.googleeapis.com/css2?family=Be+Vietnam+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 *{
 
 padding: 0%;
 margin: 0%;
 box-sizing: border-box;
 scroll-behavior: smooth;
-font-family: "Be Vietnam Pro", sans-serif;
+font-family: 'Roboto', sans-serif;
 
 }
 
@@ -168,7 +168,7 @@ font-size: 15px;
 }
 .portfolio-circle{
     position:absolute;
-    top:60%;
+    top:56%;
     left:68%;
     z-index: 9;
     animation:circle 8s linear infinite;
@@ -291,21 +291,20 @@ font-size: 15px;
 
             @keyframes circle {
                 0%{
-                    top:60%;
-                    left:69%;
+                   top:56%;
+                   left:68%;
                 }
                 
                 
                 50%{
-                    
-                    top:57%;
-                    left:71%;
-                    transform: rotateY(180deg);
-                    
+                    top:52%;
+                   left:63%;
+                   transform: rotateY(180deg);
+                   
                 } 
                 100%{
-                    top:60%;
-                    left:69%;
+                    top:56%;
+                    left:68%
                     
                     
                 }  
@@ -521,8 +520,8 @@ font-size: 15px;
                     position:relative;
                 transition: all 1.8s;
             left:70px;
-            row-gap: 5px;
-            column-gap: 4px;
+            row-gap: 8px;
+            column-gap: 20px;
         }
 
                     .skill-fade-text{
@@ -551,24 +550,13 @@ font-size: 15px;
 
                     }
 
-                    @keyframes circle{
-                      
-                       
-                       
-                        50%{
-                            top:6%;
-                            right:5%;
-                        }
-
-                        100%{
-                            top:4%;
-                            right:1%;
-                        }
-                    }
+                   
 
                     .skills-logo{
-                        width:100px;
+                        width:90px;
+                        
                         transition:all 0.5;
+
                         
                        
                         
@@ -584,16 +572,16 @@ font-size: 15px;
                         color:orangered;
                         line-height: 50px;
                     }
-                    .cap{
+                    .caps{
                         font-size:90px;
                     }
 
-                    .skill-subHeading{
+                    .skill-subHeading p{
                         margin-top:1rem;
                         width:85%;
                         text-align:justify;
                     }
 
-                    .skill-subHeading p{
+                    @media max(360px) {
                         
                     }
